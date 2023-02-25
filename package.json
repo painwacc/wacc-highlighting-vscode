@@ -1,0 +1,25 @@
+{
+  "name": "wacc-highlighting",
+  "displayName": "wacc-highlighting",
+  "description": "Syntax Highlighting for WACC",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "wacc",
+      "aliases": ["WACC", "wacc"],
+      "extensions": [".wacc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "wacc",
+      "scopeName": "source.wacc",
+      "path": "./syntaxes/wacc.tmLanguage.json"
+    }]
+  }
+}

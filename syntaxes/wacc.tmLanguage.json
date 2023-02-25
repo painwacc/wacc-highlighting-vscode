@@ -145,7 +145,11 @@
 			"patterns": [
 				{
 					"name": "keyword.control.wacc",
-					"match": "((\\b(begin|is|end)\\b)|;)"
+					"match": "(\\b(begin|is|end)\\b)"
+				},
+				{
+					"name": "punctuation.terminator.statement.wacc",
+					"match": ";"
 				}
 			]
 		},

@@ -173,7 +173,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.conditional.wacc",
-					"match": "(if|else|then|fi)"
+					"match": "\\b(if|else|then|fi)\\b"
 				}
 			]
 		},
